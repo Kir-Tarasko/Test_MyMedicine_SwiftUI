@@ -9,8 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("My medicine!")
-            .padding()
+        TabView {
+           Text("The content of the first view")
+             .tabItem {
+                 Image("User")
+                Text("Профиль")
+              }
+            Text("The content of the second view")
+              .tabItem {
+                 Image("Health")
+                 Text("Тест")
+               }
+            Text("The content of the third view")
+              .tabItem {
+                 Image("History")
+                 Text("История")
+               }
+            Text("The content of the fourth view")
+              .tabItem {
+                 Image("Support")
+                 Text("Врач")
+               }
+        }
+        
     }
 }
 
