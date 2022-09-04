@@ -18,6 +18,10 @@
 		9552121828C1093200966D9A /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9552121728C1093200966D9A /* HealthView.swift */; };
 		9552121A28C1094800966D9A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9552121928C1094800966D9A /* HistoryView.swift */; };
 		9552121C28C1096000966D9A /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9552121B28C1096000966D9A /* SupportView.swift */; };
+		9552121E28C127B200966D9A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9552121D28C127B200966D9A /* SignInView.swift */; };
+		9552122028C127DB00966D9A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9552121F28C127DB00966D9A /* SignUpView.swift */; };
+		9552122B28C4A49200966D9A /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9552122A28C4A49200966D9A /* Buttons.swift */; };
+		9552122D28C4A4A600966D9A /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9552122C28C4A4A600966D9A /* TextFields.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +52,14 @@
 		953D756128B28A29003BCA51 /* MyMedicine_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMedicine_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		953D756528B28A29003BCA51 /* MyMedicine_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMedicine_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		953D756728B28A29003BCA51 /* MyMedicine_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMedicine_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9552121428C103D700966D9A /* MyMedicine-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MyMedicine-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
 		9552121528C108D700966D9A /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		9552121728C1093200966D9A /* HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
 		9552121928C1094800966D9A /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		9552121B28C1096000966D9A /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
+		9552121D28C127B200966D9A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		9552121F28C127DB00966D9A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		9552122A28C4A49200966D9A /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		9552122C28C4A4A600966D9A /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +110,16 @@
 		953D754928B28A25003BCA51 /* MyMedicine_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				9552121428C103D700966D9A /* MyMedicine-SwiftUI-Info.plist */,
 				953D754A28B28A25003BCA51 /* MyMedicine_SwiftUIApp.swift */,
+				9552121D28C127B200966D9A /* SignInView.swift */,
+				9552121F28C127DB00966D9A /* SignUpView.swift */,
 				953D754C28B28A25003BCA51 /* ContentView.swift */,
 				9552121528C108D700966D9A /* UserView.swift */,
 				9552121728C1093200966D9A /* HealthView.swift */,
 				9552121928C1094800966D9A /* HistoryView.swift */,
 				9552121B28C1096000966D9A /* SupportView.swift */,
+				9552122A28C4A49200966D9A /* Buttons.swift */,
+				9552122C28C4A4A600966D9A /* TextFields.swift */,
 				953D754E28B28A29003BCA51 /* Assets.xcassets */,
 				953D755028B28A29003BCA51 /* Preview Content */,
 			);
@@ -271,9 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9552122B28C4A49200966D9A /* Buttons.swift in Sources */,
 				9552121C28C1096000966D9A /* SupportView.swift in Sources */,
+				9552121E28C127B200966D9A /* SignInView.swift in Sources */,
 				9552121828C1093200966D9A /* HealthView.swift in Sources */,
 				953D754D28B28A25003BCA51 /* ContentView.swift in Sources */,
+				9552122D28C4A4A600966D9A /* TextFields.swift in Sources */,
+				9552122028C127DB00966D9A /* SignUpView.swift in Sources */,
 				9552121A28C1094800966D9A /* HistoryView.swift in Sources */,
 				9552121628C108D700966D9A /* UserView.swift in Sources */,
 				953D754B28B28A25003BCA51 /* MyMedicine_SwiftUIApp.swift in Sources */,
